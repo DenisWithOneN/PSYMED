@@ -19,40 +19,56 @@
   </style>
   <body>
     <div class="container-fluid mx-auto">
-
-      <nav class="p-5 bg-white shadow flex md:items-center justify-between ">
+      <nav class="p-5 bg-white shadow flex md:items-center justify-between">
         <div class="text-3xl cursor-pointer mx-2 md:hidden block">
           <i class="bi bi-list" onclick="Menu(this)"></i>
         </div>
-        
+
         <!-- lista cu paginile pentru mobile -->
-        <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <ul
+          class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+        >
           <li class="mx-4 my-6 md:my-0">
-            <a href="#" class="text-xl hover:text-orange-500 duration-500">Acasa</a>
+            <a href="#" class="text-xl hover:text-orange-500 duration-500"
+              >Acasa</a
+            >
           </li>
           <li class="mx-4 my-6 md:my-0">
-            <a href="#" class="text-xl hover:text-orange-500 duration-500">Programari</a>
+            <a href="#" class="text-xl hover:text-orange-500 duration-500"
+              >Programari</a
+            >
           </li>
           <li class="mx-4 my-6 md:my-0">
-            <a href="#" class="text-xl hover:text-orange-500 duration-500">Despre noi</a>
+            <a href="#" class="text-xl hover:text-orange-500 duration-500"
+              >Despre noi</a
+            >
           </li>
           <li class="mx-4 my-6 md:my-0">
-            <a href="#" class="text-xl hover:text-orange-500 duration-500">Servicii</a>
+            <a href="#" class="text-xl hover:text-orange-500 duration-500"
+              >Servicii</a
+            >
           </li>
           <li class="mx-4 my-6 md:my-0">
-            <a href="#" class="text-xl hover:text-orange-500 duration-500">Galerie</a>
+            <a href="#" class="text-xl hover:text-orange-500 duration-500"
+              >Galerie</a
+            >
           </li>
-          
 
           <script>
-            function Menu(e){
-              let list = document.querySelector('ul');
-              e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+            function Menu(e) {
+              let list = document.querySelector("ul");
+              e.name === "menu"
+                ? ((e.name = "close"),
+                  list.classList.add("top-[80px]"),
+                  list.classList.add("opacity-100"))
+                : ((e.name = "menu"),
+                  list.classList.remove("top-[80px]"),
+                  list.classList.remove("opacity-100"));
             }
           </script>
         </ul>
 
-        <div class="flex justify-between items-center ">
+        <div class="flex justify-between items-center">
           <div class="flex text-2xl font-[Poppins] cursor-pointer">
             <i class="bi bi-circle-fill text-2xl"></i>
             <div>PSYMED</div>
@@ -66,14 +82,16 @@
       </nav>
 
       <!-- main image -->
-      <div class="bb bg-cover bg-center flex flex-col items-center text-center justify-center h-60 font-[Poppins]" style="background-image: url('https://picsum.photos/200/100')">
+      <div
+        class="bb bg-cover bg-center flex flex-col items-center text-center justify-center h-60 font-[Poppins]"
+        style="background-image: url('https://picsum.photos/200/100')"
+      >
         <h1 class="text-2xl font-bold">Clinica PSYMED</h1>
         <p class="px-10">Ingrijire cu Empatie, Expertiza si Inima</p>
       </div>
 
       <!-- numbers of the company -->
       <div class="bb flex justify-evenly items-center h-40 md:h-60">
-
         <div class="flex flex-col items-center">
           <i class="bi bi-circle-fill text-6xl md:text-9xl"></i>
           <p class="pt-2">+1000</p>
@@ -91,21 +109,44 @@
           <p class="pt-2">+1000</p>
           <p>pacienti</p>
         </div>
-        
       </div>
 
-      <!-- Despre noi section -->
+    <!-- Despre noi section -->
+      <!-- mobile -->
       <div class="bb h-96">
-        <div class="flex flex-col justify-center items-center pt-5">
-          <i class="bi bi-circle-fill text-9xl"></i>
-          <h2 class="text-2xl">Despre noi</h2>
-          <p class="text-center w-80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo harum, accusantium illum amet error natus numquam repudiandae pariatur </p>
-          <button type="button" class="border-2 border-black px-2 mt-5">Mai multe informatii</button>
+        <div class="flex flex-col justify-center items-center pt-5 md:flex md:flex-row">
+          <i class="bi bi-circle-fill text-9xl md:hidden"></i>
+          <div class="flex flex-col items-center md:hidden">
+            <h2 class="text-2xl">Despre noi</h2>
+            <p class="text-center w-80">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              nemo harum, accusantium illum amet error natus numquam repudiandae
+              pariatur
+            </p>
+            <button type="button" class="border-2 border-black px-2 mt-5">
+              Mai multe informatii
+            </button>
+          </div>
+
+          <!-- desktop/tablet -->
+          <div class="container mx-auto w-full flex justify-between items-center px-10">
+            <div class="hidden md:block items-left">
+              <h2 class="text-2xl">Despre noi</h2>
+              <p class=" w-80">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              nemo harum, accusantium illum amet error natus numquam repudiandae
+              pariatur
+              </p>
+              <button type="button" class="border-2 border-black px-2 mt-5">
+              Mai multe informatii
+              </button>
+            </div>
+            <div class="hidden md:block">
+              <img src="https://picsum.photos/200/100" alt="image" class="w-80 h-80 rounded-full">
+              <div></div>
+            </div>
+          </div>
         </div>
-
-      </div>
-
-        
       </div>
     </div>
   </body>
