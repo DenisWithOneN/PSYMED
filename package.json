@@ -1,0 +1,11 @@
+{
+  "name": "SM_PSYMED",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DenisWithOneN/PSYMED.git",
+  "author": "DenisWithOneN <denis.ursut@emanuel.ro>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.1"
+  }
+}
