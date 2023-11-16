@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" href="../animation.css" />
   </head>
   <body>
     <!-- navbar -->
@@ -84,9 +85,11 @@
 
     <!-- mobile/tablet -->
     <div class="lg:hidden">
-      <h1 class="text-2xl font-bold text-center my-20">Servicii si tratamente</h1>
+      <h1 class="text-2xl font-bold text-center my-20">
+        Servicii si tratamente
+      </h1>
       <div>
-        <div class="md:flex md:justify-center">
+        <div class="md:flex md:justify-center slide-bottom">
           <div class="md:flex md:flex-col">
             <div class="flex flex-col items-center my-32">
               <img
@@ -158,7 +161,10 @@
         </div>
 
         <div class="flex justify-center">
-          <button type="button" class="bg-orange-900 rounded-lg text-white w-60 mb-20">
+          <button
+            type="button"
+            class="bg-orange-900 rounded-lg text-white w-60 mb-20"
+          >
             Lista de tarife
           </button>
         </div>
@@ -167,7 +173,7 @@
 
     <!-- desktop -->
 
-    <div class="hidden lg:block">
+    <div class="hidden lg:block slide-bottom">
       <h1 class="text-2xl text-center my-20">Servicii si tratamente</h1>
       <div class="flex justify-evenly">
         <div class="flex flex-col items-center">
@@ -238,7 +244,10 @@
       </div>
 
       <div class="flex justify-center my-32">
-        <button type="button" class="bg-orange-900 rounded-lg text-white w-60 mb-20">
+        <button
+          type="button"
+          class="bg-orange-900 rounded-lg text-white w-60 mb-20"
+        >
           Lista de tarife
         </button>
       </div>
