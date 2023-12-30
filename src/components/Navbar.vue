@@ -1,0 +1,89 @@
+<script>
+
+function Menu(e) {
+                let list = document.querySelector("ul");
+                e.name === "menu"
+                  ? ((e.name = "close"),
+                    list.classList.add("top-[80px]"),
+                    list.classList.add("opacity-100"))
+                  : ((e.name = "menu"),
+                    list.classList.remove("top-[80px]"),
+                    list.classList.remove("opacity-100"));
+              }
+              </script>
+<template>
+    <div>
+        <nav
+          class="p-5 bg-orange-300 shadow flex md:items-center justify-between"
+        >
+          <!-- navbar menu icon -->
+          <div class="text-3xl cursor-pointer mx-2 md:hidden block">
+            <i class="bi bi-list text-white" onclick="Menu(this)"></i>
+          </div>
+
+          <!-- navbar pages list -->
+          <ul
+            class="text-white md:flex md:items-center z-[1] md:z-auto md:static absolute bg-orange-300 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+          >
+            <li class="mx-4 my-6 md:my-0">
+              <a
+                href="index.html"
+                class="text-xl hover:text-orange-500 duration-500"
+                >Acasa</a
+              >
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+              <a
+                href="contact.html"
+                class="text-xl hover:text-orange-500 duration-500"
+                >Programari</a
+              >
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+              <a
+                href="despre_noi.html"
+                class="text-xl hover:text-orange-500 duration-500"
+                >Despre noi</a
+              >
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+              <a
+                href="servicii_si_tratamente.html"
+                class="text-xl hover:text-orange-500 duration-500"
+                >Servicii</a
+              >
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+              <a
+                href="galerie.html"
+                class="text-xl hover:text-orange-500 duration-500"
+                >Galerie</a
+              >
+            </li>
+
+            <!-- navbar script -->
+    
+          </ul>
+          <!-- navbar logo psymed -->
+          <div class="text-white flex justify-between items-center">
+            <a href="index.html"
+              ><div class="flex text-2xl font-[Poppins] cursor-pointer">
+                <i class="bi bi-circle-fill text-2xl mx-2"></i>
+                <div>PSYMED</div>
+              </div></a
+            >
+          </div>
+
+          <!-- navbar social icons -->
+          <div class="text-white md:hidden flex">
+            <a href="https://www.facebook.com/"
+              ><i class="bi bi-facebook text-2xl pr-2"></i
+            ></a>
+            <a href="https://www.instagram.com/?hl=ro"
+              ><i class="bi bi-instagram text-2xl"></i
+            ></a>
+          </div>
+        </nav>
+      </div>
+</template>
+<style></style>
