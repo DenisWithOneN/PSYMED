@@ -7,6 +7,7 @@ export default {
         "master-purple": "#472183",
         "secondary-purple": "#7743DB",
         "master-grey": "#2E2E2E",
+        "master-beige": "#FEF3E1",
         "body-gradient-contrast": "#FFF3D3",
         "body-gradient-light": "#FFF8EC",
       },
