@@ -21,14 +21,11 @@ export default {
   >
     <Navbar />
     <HeroSectionMobile></HeroSectionMobile>
-    <FilledButton></FilledButton>
-    <EmptyButton></EmptyButton>
     <NumbersSection class="my-10" number="400" dataType="pacienti"></NumbersSection>
     <NumbersSection class="my-10" number="700" dataType="consultatii de psihiatrie"></NumbersSection>
     <NumbersSection class="my-10" number="250" dataType="evaluari psihologice"></NumbersSection>
     <FillSectionOne></FillSectionOne>
     <ServiciiTratamente></ServiciiTratamente>
-    
   </body>
 </template>
 
