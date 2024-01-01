@@ -1,6 +1,6 @@
 <script>
-import ServiciiTratamenteCard from "./ServiciiTratamenteCard.vue";
-import FilledButton from "./FilledButton.vue";
+import ServiciiTratamenteCard from "@components/ServiciiTratamenteCard.vue";
+import FilledButton from "@components/FilledButton.vue";
 
 export default {
   components: {
@@ -12,7 +12,7 @@ export default {
 <template>
   <section class="md:hidden">
     <div class="flex flex-col background-section">
-      <h2 class="text-3xl text-master-beige font-bold pt-72">Servicii si Tratamente</h2>
+      <h2 class="text-4xl text-master-beige font-bold pt-72">Servicii si Tratamente</h2>
       <ServiciiTratamenteCard
         class="mt-20 mb-20"
         service="consultatie psihiatrie"
