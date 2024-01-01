@@ -33,7 +33,7 @@ export default {
         description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est l"
       ></ServiciiTratamenteCard>
-      <FilledButton class="margin-max"></FilledButton>
+      <FilledButton class="mb-80"></FilledButton>
     </div>
   </section>
 </template>
@@ -49,9 +49,5 @@ export default {
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-/* margin max sets the margin bottom for the svg background at a higher value to show the whole height of the svg picture */
-.margin-max {
-  margin-bottom: 20rem;
 }
 </style>
