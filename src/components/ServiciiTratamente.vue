@@ -10,7 +10,7 @@ export default {
 };
 </script>
 <template>
-  <section class="md:hidden border-2 border-black">
+  <section class="md:hidden">
     <div class="flex flex-col background-section">
       <h2 class="text-3xl text-master-beige font-bold pt-72">Servicii si Tratamente</h2>
       <ServiciiTratamenteCard
