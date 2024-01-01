@@ -35,7 +35,7 @@ export default {
         >... Citeste mai mult</a
       >
     </p>
-    <FilledButton class="my-2 mt-6"></FilledButton>
+    <FilledButton class="my-2 mt-6" buttonText="programeaza-te"></FilledButton>
     <EmptyButton class="my-3"></EmptyButton>
   </div>
 </template>

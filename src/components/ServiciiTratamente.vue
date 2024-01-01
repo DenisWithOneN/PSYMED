@@ -33,7 +33,7 @@ export default {
         description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est l"
       ></ServiciiTratamenteCard>
-      <FilledButton class="mb-80"></FilledButton>
+      <FilledButton class="mb-80" buttonText="programeaza-te"></FilledButton>
     </div>
   </section>
 </template>

@@ -1,9 +1,8 @@
 <script setup>
-import { ref } from "vue";
 
-const buttonAppointment = 'Programeaza-te';
+defineProps(['buttonText'])
 </script>
 <template>
-    <button class="bg-secondary-purple p-4 rounded-xl text-white uppercase "> {{ buttonAppointment }}</button>
+    <button class="bg-secondary-purple p-4 rounded-xl text-white uppercase "> {{ buttonText }}</button>
 </template>
 <style></style>
