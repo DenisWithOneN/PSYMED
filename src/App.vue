@@ -6,6 +6,7 @@ import FillSectionOne from "@components/FillSectionOne.vue";
 import ServiciiTratamente from "@components/ServiciiTratamente.vue";
 import Gallery from "@components/Gallery.vue";
 import MediciSection from "@components/MediciSection.vue";
+import AppointmentSection from "./components/AppointmentSection.vue";
 
 export default {
   components: {
@@ -16,6 +17,7 @@ export default {
     ServiciiTratamente,
     Gallery,
     MediciSection,
+    AppointmentSection,
   },
 };
 </script>
@@ -46,6 +48,7 @@ export default {
     <ServiciiTratamente></ServiciiTratamente>
     <Gallery></Gallery>
     <MediciSection></MediciSection>
+    <AppointmentSection></AppointmentSection>
   </body>
 </template>
 

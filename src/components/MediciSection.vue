@@ -11,7 +11,7 @@ export default {
 </script>
 <template>
   <section class="md:hidden mt-60">
-    <div class="flex flex-col background-section">
+    <div class="flex flex-col background-section pb-72">
       <h2 class="text-4xl font-bold mt-80 text-master-beige mb-8">Medici</h2>
       <MedicCard
         class="my-8"

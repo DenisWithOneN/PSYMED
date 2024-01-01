@@ -1,0 +1,14 @@
+<script setup>
+
+defineProps(['boxNumber', 'boxText'])
+</script>
+<template>
+
+    <div class="flex flex-col items-center">
+        <div class="w-24 h-24 bg-secondary-purple rounded-3xl flex items-center justify-center">
+            <p class="text-white text-4xl font-bold">{{ boxNumber }}</p>
+        </div>
+        <p class="w-32 text-xl font-bold text-center">{{ boxText }}</p>
+    </div>
+</template>
+<style></style>
