@@ -1,7 +1,7 @@
 <script></script>
 <template>
   <div class="md:hidden flex flex-col w-80 mx-auto">
-    <h2 class="text-xl font-bold text-master-grey text-center">
+    <h2 class="text-3xl font-bold text-master-grey text-center">
       De ce sa apelezi la PSYMED?
     </h2>
     <p class="text-master-grey text-center mt-5">

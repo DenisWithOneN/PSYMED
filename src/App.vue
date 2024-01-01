@@ -17,14 +17,28 @@ export default {
 </script>
 <template>
   <body
-    class="bg-gradient-to-b from-body-gradient-contrast to-body-gradient-light min-h-screen"
+    class="bg-gradient-to-tl from-body-gradient-contrast to-white min-h-screen"
   >
     <Navbar />
     <HeroSectionMobile></HeroSectionMobile>
-    <NumbersSection class="my-10" number="400" dataType="pacienti"></NumbersSection>
-    <NumbersSection class="my-10" number="700" dataType="consultatii de psihiatrie"></NumbersSection>
-    <NumbersSection class="my-10" number="250" dataType="evaluari psihologice"></NumbersSection>
-    <FillSectionOne class="my-20"></FillSectionOne>
+    <section class="mt-32">
+      <NumbersSection
+        class="my-10"
+        number="400"
+        dataType="pacienti"
+      ></NumbersSection>
+      <NumbersSection
+        class="my-10"
+        number="700"
+        dataType="consultatii de psihiatrie"
+      ></NumbersSection>
+      <NumbersSection
+        class="my-10"
+        number="250"
+        dataType="evaluari psihologice"
+      ></NumbersSection>
+    </section>
+    <FillSectionOne class="my-40"></FillSectionOne>
     <ServiciiTratamente></ServiciiTratamente>
   </body>
 </template>
