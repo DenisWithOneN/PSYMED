@@ -4,6 +4,7 @@ import HeroSectionMobile from "@components/HeroSectionMobile.vue";
 import NumbersSection from "@components/NumbersSection.vue";
 import FillSectionOne from "@components/FillSectionOne.vue";
 import ServiciiTratamente from "@components/ServiciiTratamente.vue";
+import Gallery from "@components/Gallery.vue";
 
 export default {
   components: {
@@ -12,6 +13,7 @@ export default {
     NumbersSection,
     FillSectionOne,
     ServiciiTratamente,
+    Gallery,
   },
 };
 </script>
@@ -40,6 +42,7 @@ export default {
     </section>
     <FillSectionOne class="my-40"></FillSectionOne>
     <ServiciiTratamente></ServiciiTratamente>
+    <Gallery></Gallery>
   </body>
 </template>
 
