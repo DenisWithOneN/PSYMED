@@ -37,7 +37,7 @@ export default {
     </div>
   </section>
 </template>
-<style>
+<style scoped>
 .background-section {
   width: auto;
   height: 100%;

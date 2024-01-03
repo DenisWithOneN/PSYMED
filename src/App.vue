@@ -7,6 +7,7 @@ import ServiciiTratamente from "@components/ServiciiTratamente.vue";
 import Gallery from "@components/Gallery.vue";
 import MediciSection from "@components/MediciSection.vue";
 import AppointmentSection from "./components/AppointmentSection.vue";
+import Footer from "@components/Footer.vue";
 
 export default {
   components: {
@@ -18,6 +19,7 @@ export default {
     Gallery,
     MediciSection,
     AppointmentSection,
+    Footer,
   },
 };
 </script>
@@ -49,6 +51,7 @@ export default {
     <Gallery></Gallery>
     <MediciSection></MediciSection>
     <AppointmentSection></AppointmentSection>
+    <Footer class="mt-40"></Footer>
   </body>
 </template>
 
