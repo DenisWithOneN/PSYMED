@@ -7,7 +7,6 @@ Vue.use(VueGoogleMaps, {
     load: {
     key: '',
   },
-    installComponents: false
 })
 
 createApp(App).mount('#app')
