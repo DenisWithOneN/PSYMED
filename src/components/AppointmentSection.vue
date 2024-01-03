@@ -1,11 +1,13 @@
 <script>
 import AppointmentStep from "@components/AppointmentStep.vue";
-import FilledButton from "./FilledButton.vue";
+import FilledButton from "@components/FilledButton.vue";
+import Map from "@components/Map.vue";
 
 export default {
   components: {
     AppointmentStep,
     FilledButton,
+    Map,
   },
 };
 </script>
@@ -33,6 +35,7 @@ export default {
     />
     <AppointmentStep boxNumber="3" boxText="vino la noi!"></AppointmentStep>
     <FilledButton buttonText="Programeaza-te" class="mt-20"></FilledButton>
+    <Map class="mt-32"></Map>
   </section>
 </template>
 <style></style>
