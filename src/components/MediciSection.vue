@@ -11,7 +11,7 @@ export default {
 </script>
 <template>
   <section class="md:hidden mt-60">
-    <div class="flex flex-col background-section pb-72">
+    <div class="flex flex-col background-section mb-64">
       <h2 class="text-4xl font-bold mt-80 text-master-beige mb-8">Medici</h2>
       <MedicCard
         class="my-8"
@@ -33,7 +33,7 @@ export default {
         numeMedic="Cristina Emilia Said"
         medic="src\assets\cristina_emilia.png"
       ></MedicCard>
-      <FilledButton buttonText="program medici" class="my-20"></FilledButton>
+      <FilledButton buttonText="program medici" class="mt-10"></FilledButton>
     </div>
   </section>
 </template>

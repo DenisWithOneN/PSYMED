@@ -1,16 +1,18 @@
 <script>
 import AppointmentStep from "@components/AppointmentStep.vue";
+import FilledButton from "./FilledButton.vue";
 
 export default {
   components: {
     AppointmentStep,
+    FilledButton,
   },
 };
 </script>
 <template>
-  <section class="flex flex-col items-center">
+  <section class="md:hidden flex flex-col items-center">
     <AppointmentStep
-    class="mb-5"
+      class="mb-5"
       boxNumber="1"
       boxText="Completeaza formularul sau suna-ne"
     ></AppointmentStep>
@@ -20,7 +22,7 @@ export default {
       alt=""
     />
     <AppointmentStep
-    class="mb-5"
+      class="mb-5"
       boxNumber="2"
       boxText="Stabilim ziua si ora pentru consult"
     ></AppointmentStep>
@@ -30,6 +32,7 @@ export default {
       alt=""
     />
     <AppointmentStep boxNumber="3" boxText="vino la noi!"></AppointmentStep>
+    <FilledButton buttonText="Programeaza-te" class="mt-20"></FilledButton>
   </section>
 </template>
 <style></style>
