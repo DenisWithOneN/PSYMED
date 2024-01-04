@@ -11,6 +11,10 @@
     background-position: center;
   }
   
-  .layer1 {
+  .divMintUp {
     background-image: url('F:\Universitate\Code\TAW\psymed\src\assets\divMintUp.svg');
+  }
+
+  .divMintDown {
+    background-image: url('F:\Universitate\Code\TAW\psymed\src\assets\divMintDown.svg');
   }

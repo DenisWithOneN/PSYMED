@@ -11,7 +11,7 @@ export default {
 </script>
 <template>
   <section class="md:hidden bg-master_mint">
-    <div class=" spacer layer1"></div>
+    <div class=" spacer divMintUp"></div>
     <div class=" flex flex-col justify-center items-center">
       <h2 class="text-4xl text-master_shadow font-bold pt-10">Servicii si Tratamente</h2>
       <ServiciiTratamenteCard
@@ -29,13 +29,14 @@ export default {
       ></ServiciiTratamenteCard>
 
       <ServiciiTratamenteCard
-        class="mb-32"
+        class="mb-20"
         service="adeverinte medicale"
         description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est l"
       ></ServiciiTratamenteCard>
-      <FilledButton buttonText="programeaza-te"></FilledButton>
+      <FilledButton buttonColor="master_shadow" buttonText="programeaza-te"></FilledButton>
     </div>
+    <div class=" spacer divMintDown"></div>
   </section>
 </template>
 
