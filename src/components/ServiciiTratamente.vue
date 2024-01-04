@@ -12,42 +12,38 @@ export default {
 <template>
   <div class="spacer divMintUp"></div>
   <section class="bg-master_mint">
-    <div class="flex flex-col items-center">
-      <h2 class="text-4xl text-master_shadow font-bold pt-10">
+    <div class="container mx-auto flex flex-col items-center">
+      <h2 class="text-4xl text-master_shadow font-bold pt-10 mb-20">
         Servicii si Tratamente
       </h2>
-      <div class="container mx-auto flex flex-col items-center lg:flex-row lg:justify-evenly lg:pt-14">
-        <div>
-          <ServiciiTratamenteCard
-            class="mt-20 lg:mt-0 mb-20"
-            service="consultatie psihiatrie"
-            description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      <div class="container mx-auto flex flex-col justify-center items-center md:flex-wrap md:flex-row xl:flex-nowrap ">
+        <ServiciiTratamenteCard
+          class="mx-10 mb-20"
+          service="consultatie psihiatrie"
+          description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est l"
-          ></ServiciiTratamenteCard>
+        ></ServiciiTratamenteCard>
 
-          <ServiciiTratamenteCard
-            class="mb-20"
-            service="referate medicale"
-            description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        <ServiciiTratamenteCard
+          class="mx-10 mb-20"
+          service="referate medicale"
+          description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est l"
-          ></ServiciiTratamenteCard>
-        </div>
+        ></ServiciiTratamenteCard>
 
-        <div>
-          <ServiciiTratamenteCard
-            class="mb-20"
-            service="adeverinte medicale"
-            description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        <ServiciiTratamenteCard
+          class="mx-10 mb-20"
+          service="adeverinte medicale"
+          description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est l"
-          ></ServiciiTratamenteCard>
-          <ServiciiTratamenteCard
-            class="mb-20"
-            service="consiliere psihologica"
-            description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        ></ServiciiTratamenteCard>
+        <ServiciiTratamenteCard
+          class="mx-10 mb-20"
+          service="consiliere psihologica"
+          description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est l"
-          >
-          </ServiciiTratamenteCard>
-        </div>
+        >
+        </ServiciiTratamenteCard>
       </div>
       <FilledButton
         class="mb-20"
