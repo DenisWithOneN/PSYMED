@@ -10,16 +10,16 @@ export default {
 };
 </script>
 <template>
-  <section class="lg:flex lg:justify-evenly">
+  <section class="container mx-auto flex justify-evenly">
     <section class="lg:flex lg:flex-col">
-      <div class="container mx-auto flex flex-col items-center">
+      <div class="flex flex-col items-center">
         <img
           class="sm:w-64 lg:hidden"
           src="F:\Universitate\Code\TAW\psymed\src\assets\herophoto.png"
           alt="hero section image"
         />
       </div>
-      <div class="container mx-auto flex flex-col items-center justify-center lg:items-start">
+      <div class="flex flex-col items-center justify-center lg:items-start">
         <h1
           class="text-master_shadow text-4xl text-center lg:text-start font-bold mb-10"
         >
@@ -30,7 +30,7 @@ export default {
         <p class="text-center lg:text-start text-master_shadow md:w-101 sm:w-92 px-4 lg:px-0">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation
+          minim veniam, quis nostrud exercitation <br>
           <a class="text-master_mint font-bold uppercase" href=""
             >... Citeste mai mult</a
           >
