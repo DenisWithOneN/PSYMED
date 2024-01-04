@@ -37,6 +37,7 @@ export default {
     </p>
     <FilledButton class="my-2 mt-6" buttonText="programeaza-te"></FilledButton>
     <EmptyButton class="my-3" buttonText="contact"></EmptyButton>
+    <div></div>
   </div>
 </template>
 <style></style>

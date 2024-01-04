@@ -30,7 +30,7 @@ export default {
     <Navbar />
     <HeroSectionMobile></HeroSectionMobile>
     <NumbersSection class="mb-52"></NumbersSection>
-    <FillSectionOne class="mb-52"></FillSectionOne>
+    <FillSectionOne class="pb-52"></FillSectionOne>
     <ServiciiTratamente class="mb-52"></ServiciiTratamente>
     <Gallery class="mb-52"></Gallery>
     <MediciSection class="mb-52"></MediciSection>

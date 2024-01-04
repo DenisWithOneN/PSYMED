@@ -10,9 +10,10 @@ export default {
 };
 </script>
 <template>
-  <section class="md:hidden">
-    <div class="flex flex-col background-section">
-      <h2 class="text-4xl text-master_shadow font-bold pt-72">Servicii si Tratamente</h2>
+  <section class="md:hidden bg-master_mint">
+    <div class=" spacer layer1"></div>
+    <div class=" flex flex-col justify-center items-center">
+      <h2 class="text-4xl text-master_shadow font-bold pt-10">Servicii si Tratamente</h2>
       <ServiciiTratamenteCard
         class="mt-20 mb-20"
         service="consultatie psihiatrie"
@@ -50,4 +51,6 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 </style>
