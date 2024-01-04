@@ -30,7 +30,7 @@ export default {
         <p class="text-center lg:text-start text-master_shadow md:w-101 sm:w-92 px-4 lg:px-0">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation <br>
+          minim veniam, quis nostrud exercitation
           <a class="text-master_mint font-bold uppercase" href=""
             >... Citeste mai mult</a
           >
