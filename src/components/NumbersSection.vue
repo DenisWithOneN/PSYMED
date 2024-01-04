@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <section class="mt-32 md:flex justify-evenly">
+    <section class="container mx-auto mt-32 md:flex justify-evenly">
       <NumbersCard
         class="my-10"
         number="400"
