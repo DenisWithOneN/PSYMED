@@ -18,21 +18,27 @@ export default {
         class="my-8"
         numeMedic="Sorin Iova"
         medicURL="src\assets\sorin_iova.png"
+        spec1="Medic primar psihiatru"
+        spec2="Doction in stiinte medicale"
+        spec3="Sef de lucrari - Universitatea Oradea"
       ></MedicCard>
       <MedicCard
         class="my-8"
         numeMedic="Mihai Taut"
         medicURL="src\assets\mihai_taut.png"
+        spec1="Medic specialist psihiatru"
       ></MedicCard>
       <MedicCard
         class="my-8"
         numeMedic="Coralia Mladin"
         medicURL="src\assets\coralia_mladin.png"
+        spec1="Psiholog clinician"
       ></MedicCard>
       <MedicCard
         class="my-8"
         numeMedic="Cristina Emilia Said"
         medicURL="src\assets\cristina_emilia.png"
+        spec1="Medic specialist psihiatru"
       ></MedicCard>
       <FilledButton buttonText="program medici" buttonColor="bg-master_shadow" class="my-10"></FilledButton>
     </div>
