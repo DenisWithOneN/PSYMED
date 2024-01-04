@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/your-project-name/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/psymed-website/' : '/',
   plugins: [vue()],
   resolve: {
     alias: {
