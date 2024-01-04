@@ -8,7 +8,7 @@ export default {
         master_shadow: "#402E32",
         master_beige: "#FEF3E1",
         master_bg: "#FFF7E9",
-        
+        master_text: "#402E32",
       },
     },
   },

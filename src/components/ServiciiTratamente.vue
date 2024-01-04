@@ -10,10 +10,12 @@ export default {
 };
 </script>
 <template>
+  <div class="spacer divMintUp"></div>
   <section class="md:hidden bg-master_mint">
-    <div class=" spacer divMintUp"></div>
-    <div class=" flex flex-col justify-center items-center">
-      <h2 class="text-4xl text-master_shadow font-bold pt-10">Servicii si Tratamente</h2>
+    <div class="flex flex-col justify-center items-center">
+      <h2 class="text-4xl text-master_shadow font-bold pt-10">
+        Servicii si Tratamente
+      </h2>
       <ServiciiTratamenteCard
         class="mt-20 mb-20"
         service="consultatie psihiatrie"
@@ -34,24 +36,14 @@ export default {
         description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est l"
       ></ServiciiTratamenteCard>
-      <FilledButton buttonColor="master_shadow" buttonText="programeaza-te"></FilledButton>
+      <FilledButton
+        class="mb-20"
+        buttonText="programeaza-te"
+        buttonColor="bg-master_shadow"
+      ></FilledButton>
     </div>
-    <div class=" spacer divMintDown"></div>
   </section>
+  <div class="spacer divMintDown"></div>
 </template>
 
-<style scoped>
-.background-section {
-  width: auto;
-  height: 100%;
-  position: relative;
-  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\vector4.svg");
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-</style>
+<style></style>

@@ -1,6 +1,6 @@
 <script></script>
 <template>
-  <section class="bg-master_bg md:hidden">
+  <section class=" md:hidden">
     <div class="flex flex-col w-96 mx-auto">
       <h2 class="text-master_shadow text-4xl font-bold text-center">
         De ce sa apelezi la PSYMED?

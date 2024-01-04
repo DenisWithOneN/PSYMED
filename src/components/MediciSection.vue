@@ -10,8 +10,9 @@ export default {
 };
 </script>
 <template>
-  <section class="md:hidden border-2 border-black">
-    <div class="flex flex-col background-section">
+  <div class="spacer divMintUp2"></div>
+  <section class="md:hidden bg-master_mint">
+    <div class="flex flex-col background-section items-center justify-center">
       <h2 class="text-master_shadow text-4xl font-bold mt-48">Medici</h2>
       <MedicCard
         class="my-8"
@@ -33,25 +34,9 @@ export default {
         numeMedic="Cristina Emilia Said"
         medicURL="src\assets\cristina_emilia.png"
       ></MedicCard>
-      <FilledButton buttonText="program medici" class="mt-10"></FilledButton>
+      <FilledButton buttonText="program medici" buttonColor="bg-master_shadow" class="my-10"></FilledButton>
     </div>
   </section>
+  <div class="spacer divMintDown2"></div>
 </template>
-<style scoped>
-.background-section {
-  width:100%;
-  height: auto;
-  position: relative;
-  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\vector5.svg");
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-
-
-
-
-</style>
+<style scoped></style>

@@ -31,7 +31,7 @@ export default {
     <HeroSectionMobile></HeroSectionMobile>
     <NumbersSection class="mb-52"></NumbersSection>
     <FillSectionOne class="pb-52"></FillSectionOne>
-    <ServiciiTratamente class="mb-52"></ServiciiTratamente>
+    <ServiciiTratamente class="mb-40"></ServiciiTratamente>
     <Gallery class="mb-52"></Gallery>
     <MediciSection class="mb-52"></MediciSection>
     <AppointmentSection class="mb-52"></AppointmentSection>

@@ -35,8 +35,8 @@ export default {
         >... Citeste mai mult</a
       >
     </p>
-    <FilledButton class="my-2 mt-6" buttonText="programeaza-te" buttonColor="master_mint"></FilledButton>
-    <EmptyButton class="my-3" buttonText="contact" buttonColor="master_mint"></EmptyButton>
+    <FilledButton class="my-2 mt-6" buttonText="programeaza-te" buttonColor="bg-master_mint"></FilledButton>
+    <EmptyButton class="my-3" buttonText="contact" borderColor="border-master_mint" textColor="text-master_mint"></EmptyButton>
     <div></div>
   </div>
 </template>

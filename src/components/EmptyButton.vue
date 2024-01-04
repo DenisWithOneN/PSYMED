@@ -1,10 +1,10 @@
 <script setup>
-defineProps(["buttonText", 'buttonColor']);
+defineProps(["buttonText", 'borderColor', 'textColor']);
 </script>
 <template>
   <button
-    class=" border-2 p-4 rounded-xl  font-semibold uppercase"
-    :class="`border-${buttonColor}`, `text-${buttonColor}`"
+    class="border-2 p-4 rounded-xl font-semibold uppercase"
+    :class="`${borderColor} ${textColor}`"
   >
     {{ buttonText }}
   </button>
