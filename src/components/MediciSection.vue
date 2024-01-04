@@ -11,11 +11,12 @@ export default {
 </script>
 <template>
   <div class="spacer divMintUp2"></div>
-  <section class="md:hidden bg-master_mint">
-    <div class="flex flex-col background-section items-center justify-center">
-      <h2 class="text-master_shadow text-4xl font-bold mt-48">Medici</h2>
-      <MedicCard
-        class="my-8"
+  <section class="bg-master_mint">
+    <div class="flex flex-col background-section items-center">
+      <h2 class="text-master_shadow text-4xl font-bold mt-20">Medici</h2>
+      <div class="lg:flex lg:flex-wrap lg:justify-center">
+        <MedicCard
+        class="my-8 mx-8"
         numeMedic="Sorin Iova"
         medicURL="src\assets\sorin_iova.png"
         spec1="Medic primar psihiatru"
@@ -23,23 +24,24 @@ export default {
         spec3="Sef de lucrari - Universitatea Oradea"
       ></MedicCard>
       <MedicCard
-        class="my-8"
+        class="my-8 mx-8"
         numeMedic="Mihai Taut"
         medicURL="src\assets\mihai_taut.png"
         spec1="Medic specialist psihiatru"
       ></MedicCard>
       <MedicCard
-        class="my-8"
+        class="my-8 mx-8"
         numeMedic="Coralia Mladin"
         medicURL="src\assets\coralia_mladin.png"
         spec1="Psiholog clinician"
       ></MedicCard>
       <MedicCard
-        class="my-8"
+        class="my-8 mx-8"
         numeMedic="Cristina Emilia Said"
         medicURL="src\assets\cristina_emilia.png"
         spec1="Medic specialist psihiatru"
       ></MedicCard>
+      </div>
       <FilledButton buttonText="program medici" buttonColor="bg-master_shadow" class="my-10"></FilledButton>
     </div>
   </section>

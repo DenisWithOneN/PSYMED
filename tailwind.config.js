@@ -5,6 +5,20 @@ export default {
     extend: {
       width: {
         '101': '42rem',
+        'gi1': '30rem',
+        'gi2': '16.75rem',
+        'gi3': '12rem',
+        'gi4': '12rem',
+        'gi5': '16.75rem',
+        'gi6': '30rem',
+        'gi7': '20rem',
+        'gi8': '20rem',
+        'gi9': '20rem',
+      },
+      height: {
+        'gi7': '30rem',
+        'gi8': '23rem',
+        'gi9': '12.25rem',
       },
       colors: {
         master_mint: "#C3E2D4",
