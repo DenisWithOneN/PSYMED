@@ -1,6 +1,6 @@
 <script>
 import Navbar from "@components/Navbar.vue";
-import HeroSectionMobile from "@components/HeroSectionMobile.vue";
+import HeroSection from "@components/HeroSection.vue";
 import NumbersSection from "@components/NumbersSection.vue";
 import FillSectionOne from "@components/FillSectionOne.vue";
 import ServiciiTratamente from "@components/ServiciiTratamente.vue";
@@ -12,7 +12,7 @@ import Footer from "@components/Footer.vue";
 export default {
   components: {
     Navbar,
-    HeroSectionMobile,
+    HeroSection,
     NumbersSection,
     FillSectionOne,
     ServiciiTratamente,
@@ -28,7 +28,7 @@ export default {
     class="bg-master_bg"
   >
     <Navbar />
-    <HeroSectionMobile></HeroSectionMobile>
+    <HeroSection class="mt-14"></HeroSection>
     <NumbersSection class="mb-52"></NumbersSection>
     <FillSectionOne class="pb-52"></FillSectionOne>
     <ServiciiTratamente class="mb-40"></ServiciiTratamente>
