@@ -34,7 +34,7 @@ export default {
       alt=""
     />
     <AppointmentStep boxNumber="3" boxText="vino la noi!"></AppointmentStep>
-    <FilledButton buttonText="Programeaza-te" class="mt-20"></FilledButton>
+    <FilledButton buttonText="Programeaza-te" buttonColor="bg-master_shadow" class="mt-20"></FilledButton>
     <Map class="mt-32"></Map>
   </section>
 </template>
