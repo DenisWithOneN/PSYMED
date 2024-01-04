@@ -6,7 +6,7 @@ import FillSectionOne from "@components/FillSectionOne.vue";
 import ServiciiTratamente from "@components/ServiciiTratamente.vue";
 import Gallery from "@components/Gallery.vue";
 import MediciSection from "@components/MediciSection.vue";
-import AppointmentSection from "./components/AppointmentSection.vue";
+import AppointmentSection from "@components/AppointmentSection.vue";
 import Footer from "@components/Footer.vue";
 
 export default {
@@ -25,33 +25,17 @@ export default {
 </script>
 <template>
   <body
-    class="bg-gradient-to-tl from-body-gradient-contrast to-white min-h-screen"
+    class="bg-master_bg"
   >
     <Navbar />
     <HeroSectionMobile></HeroSectionMobile>
-    <section class="mt-32">
-      <NumbersSection
-        class="my-10"
-        number="400"
-        dataType="pacienti"
-      ></NumbersSection>
-      <NumbersSection
-        class="my-10"
-        number="700"
-        dataType="consultatii de psihiatrie"
-      ></NumbersSection>
-      <NumbersSection
-        class="my-10"
-        number="250"
-        dataType="evaluari psihologice"
-      ></NumbersSection>
-    </section>
-    <FillSectionOne class="my-40"></FillSectionOne>
-    <ServiciiTratamente></ServiciiTratamente>
-    <Gallery></Gallery>
-    <MediciSection></MediciSection>
-    <AppointmentSection></AppointmentSection>
-    <Footer class="mt-40"></Footer>
+    <NumbersSection class="mb-52"></NumbersSection>
+    <FillSectionOne class="mb-52"></FillSectionOne>
+    <ServiciiTratamente class="mb-52"></ServiciiTratamente>
+    <Gallery class="mb-52"></Gallery>
+    <MediciSection class="mb-52"></MediciSection>
+    <AppointmentSection class="mb-52"></AppointmentSection>
+    <Footer></Footer>
   </body>
 </template>
 

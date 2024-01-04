@@ -9,8 +9,8 @@ export default {
 </script>
 <template>
   <section class="md:hidden flex flex-col items-center">
-    <h2 class="text-4xl font-bold text-master-grey mb-8">Galerie</h2>
-    <div class="w-96 h-96 bg-violet-300 mb-16"></div>
+    <h2 class="text-master_shadow text-4xl font-bold mb-8">Galerie</h2>
+    <div class="bg-master_mint w-96 h-96 mb-16"></div>
     <FilledButton buttonText="vezi galerie"></FilledButton>
   </section>
 </template>

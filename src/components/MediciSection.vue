@@ -10,28 +10,28 @@ export default {
 };
 </script>
 <template>
-  <section class="md:hidden mt-60">
-    <div class="flex flex-col background-section mb-64">
-      <h2 class="text-4xl font-bold mt-80 text-master-beige mb-8">Medici</h2>
+  <section class="md:hidden">
+    <div class="flex flex-col background-section">
+      <h2 class="text-master_shadow text-4xl font-bold mt-48">Medici</h2>
       <MedicCard
         class="my-8"
         numeMedic="Sorin Iova"
-        medic="src\assets\sorin_iova.png"
+        medicURL="src\assets\sorin_iova.png"
       ></MedicCard>
       <MedicCard
         class="my-8"
         numeMedic="Mihai Taut"
-        medic="src\assets\mihai_taut.png"
+        medicURL="src\assets\mihai_taut.png"
       ></MedicCard>
       <MedicCard
         class="my-8"
         numeMedic="Coralia Mladin"
-        medic="src\assets\coralia_mladin.png"
+        medicURL="src\assets\coralia_mladin.png"
       ></MedicCard>
       <MedicCard
         class="my-8"
         numeMedic="Cristina Emilia Said"
-        medic="src\assets\cristina_emilia.png"
+        medicURL="src\assets\cristina_emilia.png"
       ></MedicCard>
       <FilledButton buttonText="program medici" class="mt-10"></FilledButton>
     </div>

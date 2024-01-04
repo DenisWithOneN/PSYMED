@@ -4,13 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "master-purple": "#472183",
-        "secondary-purple": "#7743DB",
-        "master-grey": "#2E2E2E",
-        "master-beige": "#FEF3E1",
-        "master-light": "#FFF8ED",
-        "body-gradient-contrast": "#FFF3D3",
-        "body-gradient-light": "#FFF8EC",
+        master_mint: "#C3E2D4",
+        master_shadow: "#402E32",
+        master_beige: "#FEF3E1",
+        master_bg: "#FFF7E9",
+        
       },
     },
   },

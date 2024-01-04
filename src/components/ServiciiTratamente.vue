@@ -12,7 +12,7 @@ export default {
 <template>
   <section class="md:hidden">
     <div class="flex flex-col background-section">
-      <h2 class="text-4xl text-master-beige font-bold pt-72">Servicii si Tratamente</h2>
+      <h2 class="text-4xl text-master_shadow font-bold pt-72">Servicii si Tratamente</h2>
       <ServiciiTratamenteCard
         class="mt-20 mb-20"
         service="consultatie psihiatrie"
@@ -33,7 +33,7 @@ export default {
         description="re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est l"
       ></ServiciiTratamenteCard>
-      <FilledButton class="mb-80" buttonText="programeaza-te"></FilledButton>
+      <FilledButton buttonText="programeaza-te"></FilledButton>
     </div>
   </section>
 </template>

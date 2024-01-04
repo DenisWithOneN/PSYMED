@@ -3,6 +3,6 @@
 defineProps(['buttonText'])
 </script>
 <template>
-    <button class="bg-secondary-purple p-4 rounded-xl text-white uppercase "> {{ buttonText }}</button>
+    <button class="bg-master_mint font-semibold text-white uppercase p-4 rounded-xl"> {{ buttonText }}</button>
 </template>
 <style></style>

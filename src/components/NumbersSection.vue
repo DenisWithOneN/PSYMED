@@ -1,11 +1,32 @@
-<script setup>
-defineProps(['number', 'dataType'])
+<script>
+
+import NumbersCard from "@components/NumbersCard.vue";
+
+export default {
+  components: {
+    NumbersCard,
+  },
+};
 </script>
+
 <template>
-    
-    <div class="md:hidden flex flex-col items-center">
-        <div class="bg-secondary-purple w-40 h-40 rounded-full"></div>
-        <p class="text-xl text-center font-bold text-master-grey mt-2">{{number}}+ <br> {{dataType}}</p>
-    </div>
+    <section class="mt-32">
+      <NumbersCard
+        class="my-10"
+        number="400"
+        dataType="pacienti"
+      ></NumbersCard>
+      <NumbersCard
+        class="my-10"
+        number="700"
+        dataType="consultatii de psihiatrie"
+      ></NumbersCard>
+      <NumbersCard
+        class="my-10"
+        number="250"
+        dataType="evaluari psihologice"
+      ></NumbersCard>
+    </section>
 </template>
+
 <style></style>

@@ -18,45 +18,45 @@ function Menu(e) {
         >
           <!-- navbar menu icon -->
           <div class="text-3xl cursor-pointer mx-2 md:hidden block">
-            <i class="bi bi-list text-master-purple" onclick="Menu(this)"></i>
+            <i class=" text-master_shadow bi bi-list" onclick="Menu(this)"></i>
           </div>
 
           <!-- navbar pages list -->
           <ul
-            class="text-master-purple md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+            class="text-master_shadow md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
           >
             <li class="mx-4 my-6 md:my-0">
               <a
                 href="index.html"
-                class="text-xl hover:text-purple-400 duration-500"
+                class="text-xl hover:text-master_mint duration-500"
                 >Acasa</a
               >
             </li>
             <li class="mx-4 my-6 md:my-0">
               <a
                 href="contact.html"
-                class="text-xl hover:text-purple-400 duration-500"
+                class="text-xl hover:text-master_mint duration-500"
                 >Programari</a
               >
             </li>
             <li class="mx-4 my-6 md:my-0">
               <a
                 href="despre_noi.html"
-                class="text-xl hover:text-purple-400 duration-500"
+                class="text-xl hover:text-master_mint duration-500"
                 >Despre noi</a
               >
             </li>
             <li class="mx-4 my-6 md:my-0">
               <a
                 href="servicii_si_tratamente.html"
-                class="text-xl hover:text-purple-400 duration-500"
+                class="text-xl hover:text-master_mint duration-500"
                 >Servicii</a
               >
             </li>
             <li class="mx-4 my-6 md:my-0">
               <a
                 href="galerie.html"
-                class="text-xl hover:text-purple-400 duration-500"
+                class="text-xl hover:text-master_mint duration-500"
                 >Galerie</a
               >
             </li>
@@ -65,7 +65,7 @@ function Menu(e) {
     
           </ul>
           <!-- navbar logo psymed -->
-          <div class="text-master-purple flex justify-between items-center">
+          <div class="text-master_shadow flex justify-between items-center">
             <a href="index.html"
               ><div class="flex text-2xl cursor-pointer">
                 <div>PSYMED</div>
@@ -75,7 +75,7 @@ function Menu(e) {
           </div>
 
           <!-- navbar social icons -->
-          <div class="text-master-purple md:hidden flex">
+          <div class="text-master_shadow md:hidden flex">
             <a href="https://www.facebook.com/"
               ><i class="bi bi-facebook text-2xl pr-2"></i
             ></a>
