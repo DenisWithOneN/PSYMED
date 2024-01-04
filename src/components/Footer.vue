@@ -2,7 +2,7 @@
 <template>
 
 <section class="md:hidden h-72">
-    <div class="background-section text-white flex flex-col justify-end pb-5 px-12">
+    <div class="background-section text-master_shadow flex flex-col justify-end pb-5 px-12">
         <p class="font-bold text-xl mb-5">Cabinete de Psihiatrie Dr. Iova - PSYMED</p>
         <p>Strada Ciheiului nr.35, bloc A3, parter</p>
         <p>Oradea, Bihor, Romania</p>

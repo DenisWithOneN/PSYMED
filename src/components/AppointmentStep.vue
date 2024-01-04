@@ -8,7 +8,7 @@ defineProps(['boxNumber', 'boxText'])
         <div class="w-24 h-24 bg-master_mint rounded-3xl flex items-center justify-center">
             <p class="text-white text-4xl font-bold">{{ boxNumber }}</p>
         </div>
-        <p class="w-32 text-xl font-bold text-center">{{ boxText }}</p>
+        <p class="text-master_shadow text-xl font-bold text-center w-32">{{ boxText }}</p>
     </div>
 </template>
 <style></style>
