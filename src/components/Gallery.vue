@@ -10,7 +10,7 @@ export default {
 <template>
   <section class="container mx-auto flex flex-col items-center">
     <h2 class="text-master_shadow text-4xl font-bold mb-8">Galerie</h2>
-    <div class="bg-master_mint w-96 h-96 mb-16 lg:hidden"></div>
+    <div class="bg-master_mint w-full h-52 mb-16 lg:hidden"></div>
 
     <!-- desktop gallery -->
     <div class="hidden lg:flex">
