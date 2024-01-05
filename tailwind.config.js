@@ -15,12 +15,14 @@ export default {
         'gi8': '20rem',
         'gi9': '20rem',
         'map': '30rem',
+        'mapxl': '50rem',
       },
       height: {
         'gi7': '30rem',
         'gi8': '23rem',
         'gi9': '12.25rem',
         'map': '30rem',
+        'mapxl': '40rem',
       },
       colors: {
         master_mint: "#C3E2D4",
