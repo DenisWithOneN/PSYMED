@@ -27,12 +27,12 @@ export default {
   <body class="bg-master_bg">
     <Navbar />
     <HeroSection class="mt-14"></HeroSection>
-    <NumbersSection class="mb-52"></NumbersSection>
-    <FillSectionOne class="pb-52"></FillSectionOne>
-    <ServiciiTratamente class="mb-40"></ServiciiTratamente>
-    <Gallery class="mb-52"></Gallery>
-    <MediciSection class="mb-52"></MediciSection>
-    <AppointmentSection class="mb-52"></AppointmentSection>
+    <NumbersSection class="mb-32"></NumbersSection>
+    <FillSectionOne class=""></FillSectionOne>
+    <ServiciiTratamente class=""></ServiciiTratamente>
+    <Gallery class=""></Gallery>
+    <MediciSection class=""></MediciSection>
+    <AppointmentSection class=""></AppointmentSection>
     <Footer></Footer>
   </body>
 </template>
