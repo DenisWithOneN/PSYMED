@@ -14,27 +14,31 @@ export default {
     <section class="lg:flex lg:flex-col">
       <div class="flex flex-col items-center">
         <img
-          class="sm:w-64 lg:hidden"
+          class="pb-10 w-52 md:mb-0 sm:w-64 lg:hidden"
           src="F:\Universitate\Code\TAW\psymed\src\assets\herophoto.png"
           alt="hero section image"
         />
       </div>
       <div class="flex flex-col items-center justify-center lg:items-start">
-        <h1
-          class="text-master_shadow text-4xl text-center lg:text-start font-bold mb-10"
-        >
-          Îngrijire cu <br />
-          Empatie, Expertiză și Inimă
-        </h1>
-
-        <p class="text-center lg:text-start text-master_shadow md:w-101 sm:w-92 px-4 lg:px-0">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation <br>
-          <a class="text-master_mint font-bold uppercase" href=""
-            >... Citeste mai mult</a
+        <div class="mb-5 md:mb-0">
+          <h1
+            class="text-master_shadow text-3xl text-center font-bold mb-5 px-5 lg:text-start sm:text-4xl sm:px-0"
           >
-        </p>
+            Îngrijire cu <br />
+            Empatie, Expertiză și Inimă
+          </h1>
+
+          <p
+            class="text-center text-master_shadow text-sm md:text-base md:w-101 sm:w-92 px-4 lg:px-0 lg:text-start"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation <br />
+            <a class="text-master_mint font-bold uppercase" href=""
+              >... Citeste mai mult</a
+            >
+          </p>
+        </div>
         <div class="flex flex-col md:flex-row md:mt-5">
           <FilledButton
             class="my-2 md:mr-2"
@@ -58,5 +62,4 @@ export default {
     />
   </section>
 </template>
-<style>
-</style>
+<style></style>

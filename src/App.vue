@@ -32,7 +32,7 @@ export default {
     <ServiciiTratamente class=""></ServiciiTratamente>
     <Gallery class=""></Gallery>
     <MediciSection class=""></MediciSection>
-    <AppointmentSection class=""></AppointmentSection>
+    <AppointmentSection class="mt-32"></AppointmentSection>
     <Footer></Footer>
   </body>
 </template>

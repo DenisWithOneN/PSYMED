@@ -14,7 +14,7 @@ export default {
 <template>
   <section class="container mx-auto flex flex-col items-center justify-center lg:flex-row-reverse lg:items-start xl:items-start">
     <div class="flex flex-col items-center lg:items-start lg:ml-10">
-      <h2 class="text-4xl font-bold text-master_shadow mb-10">
+      <h2 class="text-3xl font-bold text-master_shadow mb-10 sm:text-4xl">
         Programeaza-te
       </h2>
       <AppointmentStep
