@@ -1,5 +1,5 @@
 <script>
-import FilledButton from "@components/FilledButton.vue";
+import FilledButton from "@components/homepage/FilledButton.vue";
 
 export default {
   components: {

@@ -1,6 +1,6 @@
 <script>
-import ServiciiTratamenteCard from "@components/ServiciiTratamenteCard.vue";
-import FilledButton from "@components/FilledButton.vue";
+import ServiciiTratamenteCard from "@components/homepage/ServiciiTratamenteCard.vue";
+import FilledButton from "@components/homepage/FilledButton.vue";
 
 export default {
   components: {

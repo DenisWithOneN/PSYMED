@@ -1,6 +1,6 @@
 <script>
 
-import NumbersCard from "@components/NumbersCard.vue";
+import NumbersCard from "@components/homepage/NumbersCard.vue";
 
 export default {
   components: {

@@ -1,7 +1,7 @@
 <script>
-import AppointmentStep from "@components/AppointmentStep.vue";
-import FilledButton from "@components/FilledButton.vue";
-import Map from "@components/Map.vue";
+import AppointmentStep from "@components/homepage/AppointmentStep.vue";
+import FilledButton from "@components/homepage/FilledButton.vue";
+import Map from "@components/homepage/Map.vue";
 
 export default {
   components: {

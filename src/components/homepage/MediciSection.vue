@@ -1,6 +1,6 @@
 <script>
-import MedicCard from "@components/MedicCard.vue";
-import FilledButton from "@components/FilledButton.vue";
+import MedicCard from "@components/homepage/MedicCard.vue";
+import FilledButton from "@components/homepage/FilledButton.vue";
 
 export default {
   components: {
