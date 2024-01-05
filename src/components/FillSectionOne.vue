@@ -5,7 +5,7 @@
       <h2 class="text-master_shadow text-4xl font-bold text-center">
         De ce sa apelezi la PSYMED?
       </h2>
-      <p class="text-master_shadow text-center mt-5 w-96">
+      <p class="text-master_shadow text-center mt-5 sm:w-96">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
         itaque minus, deleniti aspernatur fugiat possimus quos aliquid
         voluptatem aut consequatur consequuntur fugit in amet accusamus qui,
