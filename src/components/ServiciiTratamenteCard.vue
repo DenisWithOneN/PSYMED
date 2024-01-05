@@ -3,7 +3,7 @@ defineProps(["service", "description"]);
 </script>
 <template>
   <div
-    class="bg-master_beige rounded-xl flex flex-col items-center w-60 h-56 sm:h-72 sm:w-80"
+    class="bg-master_beige rounded-xl flex flex-col items-center w-60 h-56 drop-shadow-lg sm:h-72 sm:w-80"
   >
     <div
       class="bg-master_mint rounded-full w-16 h-16 sm:w-24 sm:h-24 mt-5"

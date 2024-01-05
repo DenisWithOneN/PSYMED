@@ -50,6 +50,7 @@ export default {
             buttonText="contact"
             borderColor="border-master_mint"
             textColor="text-master_mint"
+            backgroundColor="bg-master_bg"
           ></EmptyButton>
         </div>
       </div>

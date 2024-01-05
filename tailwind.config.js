@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      dropShadow: {
+        '3xl': '0 3px 2px rgba(0, 0, 0, 0.30)',
+      },
       width: {
         '101': '42rem',
         'gi1': '30rem',
