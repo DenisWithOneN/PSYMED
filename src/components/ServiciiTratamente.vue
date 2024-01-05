@@ -13,7 +13,7 @@ export default {
   <div class="spacer divMintUp"></div>
   <section class="bg-master_mint">
     <div class="container mx-auto flex flex-col items-center">
-      <h2 class="text-4xl text-master_shadow font-bold pt-10 mb-20">
+      <h2 class="text-4xl text-master_shadow text-center font-bold pt-10 mb-10 lg:mb-20 xl:text-6xl">
         Servicii si Tratamente
       </h2>
       <div class="container mx-auto flex flex-col justify-center items-center md:flex-wrap md:flex-row xl:flex-nowrap ">
