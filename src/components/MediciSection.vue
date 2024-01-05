@@ -18,7 +18,7 @@ export default {
         <MedicCard
         class="my-8 mx-8"
         numeMedic="Sorin Iova"
-        medicURL="/images/sorin_iova.png"
+        medicURL="/images/soriniova.png"
         spec1="Medic primar psihiatru"
         spec2="Doction in stiinte medicale"
         spec3="Sef de lucrari - Universitatea Oradea"
@@ -26,19 +26,19 @@ export default {
       <MedicCard
         class="my-8 mx-8"
         numeMedic="Mihai Taut"
-        medicURL="/images/mihai_taut.png"
+        medicURL="/images/mihaitaut.png"
         spec1="Medic specialist psihiatru"
       ></MedicCard>
       <MedicCard
         class="my-8 mx-8"
         numeMedic="Coralia Mladin"
-        medicURL="/images/coralia_mladin.png"
+        medicURL="/images/coraliamladin.png"
         spec1="Psiholog clinician"
       ></MedicCard>
       <MedicCard
         class="my-8 mx-8"
         numeMedic="Cristina Emilia Said"
-        medicURL="/images/cristina_emilia.png"
+        medicURL="/images/cristinaemilia.png"
         spec1="Medic specialist psihiatru"
       ></MedicCard>
       </div>
