@@ -1,32 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+
+
 .spacer {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .divMintUp {
-    background-image: url('F:\Universitate\Code\TAW\psymed\src\assets\divMintUp.svg');
-  }
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
-  .divMintDown {
-    background-image: url('F:\Universitate\Code\TAW\psymed\src\assets\divMintDown.svg');
-  }
+.divMintUp {
+  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\divMintUp.svg");
+}
 
-  .divMintUp2 {
-    background-image: url('F:\Universitate\Code\TAW\psymed\src\assets\divMintUp2.svg');
-  }
+.divMintDown {
+  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\divMintDown.svg");
+}
 
-  .divMintDown2 {
-    background-image: url('F:\Universitate\Code\TAW\psymed\src\assets\divMintDown2.svg');
-  }
+.divMintUp2 {
+  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\divMintUp2.svg");
+}
 
-  .footer {
-    background-image: url('F:\Universitate\Code\TAW\psymed\src\assets\footer.svg');
-  }
+.divMintDown2 {
+  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\divMintDown2.svg");
+}
+
+.footer {
+  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\footer.svg");
+}
+
+
+

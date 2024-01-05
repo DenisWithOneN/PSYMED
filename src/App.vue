@@ -24,9 +24,7 @@ export default {
 };
 </script>
 <template>
-  <body
-    class="bg-master_bg"
-  >
+  <body class="bg-master_bg">
     <Navbar />
     <HeroSection class="mt-14"></HeroSection>
     <NumbersSection class="mb-52"></NumbersSection>
@@ -39,4 +37,10 @@ export default {
   </body>
 </template>
 
-<style></style>
+<style>
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+</style>
