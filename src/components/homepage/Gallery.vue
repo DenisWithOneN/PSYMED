@@ -1,11 +1,6 @@
-<script>
+<script setup>
 import FilledButton from "@components/homepage/FilledButton.vue";
 
-export default {
-  components: {
-    FilledButton,
-  },
-};
 </script>
 <template>
   <section class="container mx-auto flex flex-col items-center my-20 xl:my-0">

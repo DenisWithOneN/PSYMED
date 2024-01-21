@@ -1,13 +1,8 @@
-<script>
+<script setup>
 import FilledButton from "@components/homepage/FilledButton.vue";
 import EmptyButton from "@components/homepage/EmptyButton.vue";
 
-export default {
-  components: {
-    FilledButton,
-    EmptyButton,
-  },
-};
+
 </script>
 <template>
   <section class="container mx-auto flex justify-evenly">

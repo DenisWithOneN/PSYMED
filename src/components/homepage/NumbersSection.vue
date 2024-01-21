@@ -1,12 +1,7 @@
-<script>
+<script setup>
 
 import NumbersCard from "@components/homepage/NumbersCard.vue";
 
-export default {
-  components: {
-    NumbersCard,
-  },
-};
 </script>
 
 <template>

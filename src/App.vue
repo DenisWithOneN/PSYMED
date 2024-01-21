@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import Navbar from "@components/homepage/Navbar.vue";
 import HeroSection from "@components/homepage/HeroSection.vue";
 import NumbersSection from "@components/homepage/NumbersSection.vue";
@@ -8,20 +8,6 @@ import Gallery from "@components/homepage/Gallery.vue";
 import MediciSection from "@components/homepage/MediciSection.vue";
 import AppointmentSection from "@components/homepage/AppointmentSection.vue";
 import Footer from "@components/homepage/Footer.vue";
-
-export default {
-  components: {
-    Navbar,
-    HeroSection,
-    NumbersSection,
-    FillSectionOne,
-    ServiciiTratamente,
-    Gallery,
-    MediciSection,
-    AppointmentSection,
-    Footer,
-  },
-};
 </script>
 <template>
   <body class="bg-master_bg">

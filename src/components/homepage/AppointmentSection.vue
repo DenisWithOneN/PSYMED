@@ -1,15 +1,9 @@
-<script>
+<script setup>
 import AppointmentStep from "@components/homepage/AppointmentStep.vue";
 import FilledButton from "@components/homepage/FilledButton.vue";
 import Map from "@components/homepage/Map.vue";
 
-export default {
-  components: {
-    AppointmentStep,
-    FilledButton,
-    Map,
-  },
-};
+
 </script>
 <template>
   <section class="container mx-auto flex flex-col items-center justify-center lg:flex-row-reverse lg:items-start xl:items-start">

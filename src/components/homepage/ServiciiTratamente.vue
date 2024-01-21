@@ -1,13 +1,8 @@
-<script>
+<script setup>
 import ServiciiTratamenteCard from "@components/homepage/ServiciiTratamenteCard.vue";
 import FilledButton from "@components/homepage/FilledButton.vue";
 
-export default {
-  components: {
-    ServiciiTratamenteCard,
-    FilledButton,
-  },
-};
+
 </script>
 <template>
   <div class="spacer divMintUp"></div>
