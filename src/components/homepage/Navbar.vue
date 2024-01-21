@@ -1,5 +1,7 @@
 <script>
 
+import { RouterLink } from "vue-router";
+
 function Menu(e) {
                 let list = document.querySelector("ul");
                 e.name === "menu"
@@ -26,18 +28,16 @@ function Menu(e) {
             class="text-master_shadow md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
           >
             <li class="mx-4 my-6 md:my-0">
-              <a
-                href="index.html"
+              <RouterLink
+                to="/"
                 class="text-xl hover:text-master_mint duration-500"
-                >Acasa</a
-              >
+                >Acasa</RouterLink>
             </li>
             <li class="mx-4 my-6 md:my-0">
-              <a
-                href="contact.html"
+              <RouterLink
+                to="/test"
                 class="text-xl hover:text-master_mint duration-500"
-                >Programari</a
-              >
+                >Programari</RouterLink>
             </li>
             <li class="mx-4 my-6 md:my-0">
               <a

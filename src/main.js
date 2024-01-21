@@ -5,9 +5,11 @@ import App from "./App.vue";
 
 
 import HomeScreen from "./pages/HomeScreen.vue";
+import Test from "./pages/Test.vue";
 
 const routes = [
   { path: "/", component: HomeScreen },
+    { path: "/test", component: Test },
 ];
 
 const router = createRouter({
