@@ -16,23 +16,23 @@
 }
 
 .divMintUp {
-  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\divMintUp.svg");
+  background-image: url("src/assets/divmintup.svg");
 }
 
 .divMintDown {
-  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\divMintDown.svg");
+  background-image: url("src/assets/divMintDown.svg");
 }
 
 .divMintUp2 {
-  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\divMintUp2.svg");
+  background-image: url("src/assets/divMintUp2.svg");
 }
 
 .divMintDown2 {
-  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\divMintDown2.svg");
+  background-image: url("src/assets/divMintDown2.svg");
 }
 
 .footer {
-  background-image: url("F:\Universitate\Code\TAW\psymed\src\assets\footer.svg");
+  background-image: url("src/assets/footer.svg");
 }
 
 
