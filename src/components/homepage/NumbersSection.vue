@@ -3,7 +3,7 @@ import NumbersCard from "@components/homepage/NumbersCard.vue";
 </script>
 
 <template>
-  <li class="container mx-auto md:flex justify-evenly">
+  <li class="container mx-auto md:flex justify-evenly lg:justify-between xl:px-12">
     <NumbersCard
       class="my-10 md:my-0"
       number="400"

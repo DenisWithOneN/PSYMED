@@ -6,7 +6,7 @@ import EmptyButton from "@components/homepage/EmptyButton.vue";
 </script>
 <template>
   <section class="container mx-auto flex justify-evenly">
-    <div class="lg:flex lg:flex-col">
+    <div class="lg:flex lg:flex-col lg:justify-between">
       <div class="flex flex-col items-center">
         <img
           class="pb-10 w-52 md:mb-0 sm:w-64 lg:hidden"
@@ -17,7 +17,7 @@ import EmptyButton from "@components/homepage/EmptyButton.vue";
       <div class="flex flex-col items-center justify-center lg:items-start">
         <div class="mb-5 md:mb-0">
           <h1
-            class="text-master_shadow text-3xl text-center font-bold mb-5 px-5 lg:text-start sm:text-4xl sm:px-0"
+            class="text-master_shadow text-4xl text-center font-bold mb-5 px-5 lg:text-start sm:text-5xl lg:text-6xl xl:text-7xl sm:px-0"
           >
             Îngrijire cu <br />
             Empatie, Expertiză și Inimă
@@ -52,7 +52,7 @@ import EmptyButton from "@components/homepage/EmptyButton.vue";
     </div>
 
     <img
-      class="hidden lg:block"
+      class="hidden lg:block flex-shrink-0 w-96"
       src="F:\Universitate\Code\TAW\psymed\src\assets\herophoto.png"
       alt="hero section image"
     />
