@@ -3,7 +3,7 @@ import NumbersCard from "@components/homepage/NumbersCard.vue";
 </script>
 
 <template>
-  <li class="container mx-auto md:flex justify-evenly lg:justify-between">
+  <ul class="container mx-auto md:flex justify-evenly lg:justify-between">
     <NumbersCard
       class="my-10 md:my-0"
       number="400"
@@ -19,7 +19,7 @@ import NumbersCard from "@components/homepage/NumbersCard.vue";
       number="250"
       dataType="evaluari psihologice"
     ></NumbersCard>
-  </li>
+  </ul>
 </template>
 
 <style></style>
