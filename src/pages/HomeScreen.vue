@@ -18,7 +18,7 @@ import Footer from "@components/homepage/Footer.vue";
     <ServiciiTratamente class=""></ServiciiTratamente>
     <Gallery class=""></Gallery>
     <MediciSection class=""></MediciSection>
-    <AppointmentSection class="mt-32"></AppointmentSection>
+    <AppointmentSection class=""></AppointmentSection>
     <Footer></Footer>
   </body>
 </template>
