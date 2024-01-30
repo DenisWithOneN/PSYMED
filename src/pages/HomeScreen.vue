@@ -13,8 +13,8 @@ import Footer from "@components/homepage/Footer.vue";
   <body class="bg-master_bg">
     <Navbar />
     <HeroSection class="mt-14"></HeroSection>
-    <NumbersSection class="mb-32"></NumbersSection>
-    <FillSectionOne class="mb-20"></FillSectionOne>
+    <NumbersSection class=""></NumbersSection>
+    <FillSectionOne class=""></FillSectionOne>
     <ServiciiTratamente class=""></ServiciiTratamente>
     <Gallery class=""></Gallery>
     <MediciSection class=""></MediciSection>

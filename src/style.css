@@ -8,7 +8,7 @@
 
 
 .spacer {
-  aspect-ratio: 960/300;
+  aspect-ratio:1500/300;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +16,7 @@
 }
 
 .divMintUp {
-  background-image: url("src/assets/divmintup.svg");
+  background-image: url("src/assets/divMintUp.svg");
 }
 
 .divMintDown {
@@ -32,7 +32,7 @@
 }
 
 .footer {
-  background-image: url("src/assets/footer.svg");
+  background-image: url("src/assets/divMintUp2.svg");
 }
 
 
