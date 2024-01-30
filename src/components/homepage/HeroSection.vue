@@ -52,7 +52,7 @@ import EmptyButton from "@components/homepage/EmptyButton.vue";
     </div>
 
     <img
-      class="hidden lg:block flex-shrink-0 w-96"
+      class="hidden lg:block lg:flex-shrink-0 lg:w-80 xl:w-96"
       src="F:\Universitate\Code\TAW\psymed\src\assets\herophoto.png"
       alt="hero section image"
     />

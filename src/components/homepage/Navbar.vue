@@ -16,10 +16,10 @@ function Menu(e) {
 <template>
     <div class="container mx-auto">
         <nav
-          class="p-5 bg-none flex md:items-center justify-between"
+          class="py-5 bg-none flex md:items-center justify-between"
         >
           <!-- navbar menu icon -->
-          <div class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <div class="text-3xl cursor-pointer mx-2 md:hidden block lg:mx-0">
             <i class=" text-master_shadow bi bi-list" onclick="Menu(this)"></i>
           </div>
 
