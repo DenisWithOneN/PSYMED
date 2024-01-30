@@ -14,7 +14,7 @@ function Menu(e) {
               }
               </script>
 <template>
-    <div>
+    <div class="container mx-auto">
         <nav
           class="p-5 bg-none flex md:items-center justify-between"
         >
