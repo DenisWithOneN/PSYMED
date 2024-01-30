@@ -8,7 +8,7 @@ import FilledButton from "@components/homepage/FilledButton.vue";
   <div class="spacer divMintUp"></div>
   <section class="bg-master_mint">
     <div class="container mx-auto flex flex-col items-center">
-      <h2 class="text-4xl text-master_shadow text-center font-bold pt-10 mb-10 lg:mb-20 xl:text-6xl">
+      <h2 class="text-4xl text-master_shadow text-center font-bold mt-10 mb-10 lg:mb-20 xl:text-6xl">
         Servicii si Tratamente
       </h2>
       <div class="container mx-auto flex flex-col justify-center items-center md:flex-wrap md:flex-row xl:flex-nowrap ">
@@ -41,7 +41,7 @@ import FilledButton from "@components/homepage/FilledButton.vue";
         </ServiciiTratamenteCard>
       </div>
       <FilledButton
-        class="mb-20"
+        class="mb-5"
         buttonText="programeaza-te"
         buttonColor="bg-master_shadow"
       ></FilledButton>
