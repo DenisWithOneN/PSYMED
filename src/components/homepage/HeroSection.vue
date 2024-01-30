@@ -6,7 +6,7 @@ import EmptyButton from "@components/homepage/EmptyButton.vue";
 </script>
 <template>
   <section class="container mx-auto flex justify-evenly">
-    <section class="lg:flex lg:flex-col">
+    <div class="lg:flex lg:flex-col">
       <div class="flex flex-col items-center">
         <img
           class="pb-10 w-52 md:mb-0 sm:w-64 lg:hidden"
@@ -49,7 +49,7 @@ import EmptyButton from "@components/homepage/EmptyButton.vue";
           ></EmptyButton>
         </div>
       </div>
-    </section>
+    </div>
 
     <img
       class="hidden lg:block"
