@@ -3,7 +3,7 @@ import FilledButton from "@components/homepage/FilledButton.vue";
 
 </script>
 <template>
-  <section class="container mx-auto flex flex-col items-center my-20 xl:my-0">
+  <section class="container mx-auto flex flex-col items-center">
     <h2 class="text-master_shadow text-4xl font-bold mb-8">Galerie</h2>
     <div class="bg-master_mint w-3/4 h-60 sm:h-72 mb-16 lg:hidden"></div>
 
