@@ -1,5 +1,6 @@
 <script setup>
 import FilledButton from "@components/homepage/FilledButton.vue";
+import { RouterLink } from 'vue-router';
 
 </script>
 <template>
@@ -28,10 +29,12 @@ import FilledButton from "@components/homepage/FilledButton.vue";
         <div class="w-gi9 h-gi9 bg-master_mint"></div>
       </div>
     </div>
-    <FilledButton
+    <RouterLink to="/galerie">
+      <FilledButton
       buttonText="vezi galerie"
       buttonColor="bg-master_shadow"
     ></FilledButton>
+    </RouterLink>
   </section>
 </template>
 <style></style>

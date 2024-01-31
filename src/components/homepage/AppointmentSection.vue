@@ -2,13 +2,14 @@
 import AppointmentStep from "@components/homepage/AppointmentStep.vue";
 import FilledButton from "@components/homepage/FilledButton.vue";
 import Map from "@components/homepage/Map.vue";
-
-
+import { RouterLink } from "vue-router";
 </script>
 <template>
-  <section class="container mx-auto flex flex-col items-center justify-center lg:flex-row-reverse lg:items-start xl:items-start">
+  <section
+    class="container mx-auto flex flex-col items-center justify-center lg:flex-row-reverse lg:items-start xl:items-start"
+  >
     <div class="flex flex-col items-center lg:items-start lg:ml-10">
-      <h2 class="text-4xl font-bold text-master_shadow mb-10  lg:text-5xl">
+      <h2 class="text-4xl font-bold text-master_shadow mb-10 lg:text-5xl">
         Programeaza-te
       </h2>
       <AppointmentStep
@@ -32,11 +33,13 @@ import Map from "@components/homepage/Map.vue";
         alt=""
       />
       <AppointmentStep boxNumber="3" boxText="vino la noi!"></AppointmentStep>
-      <FilledButton
-        buttonText="Programeaza-te"
-        buttonColor="bg-master_shadow"
-        class="mt-20"
-      ></FilledButton>
+      <RouterLink to="/programari"
+        ><FilledButton
+          buttonText="Programeaza-te"
+          buttonColor="bg-master_shadow"
+          class="mt-20"
+        ></FilledButton
+      ></RouterLink>
     </div>
     <Map class="mt-32 lg:mt-0 lg:mr-10"></Map>
   </section>

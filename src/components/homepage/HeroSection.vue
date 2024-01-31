@@ -1,8 +1,7 @@
 <script setup>
 import FilledButton from "@components/homepage/FilledButton.vue";
 import EmptyButton from "@components/homepage/EmptyButton.vue";
-
-
+import { RouterLink } from "vue-router";
 </script>
 <template>
   <section class="container mx-auto flex justify-evenly">
@@ -35,18 +34,25 @@ import EmptyButton from "@components/homepage/EmptyButton.vue";
           </p>
         </div>
         <div class="flex flex-col md:flex-row md:mt-5">
-          <FilledButton
-            class="my-2 md:mr-2"
-            buttonText="programeaza-te"
-            buttonColor="bg-master_mint"
-          ></FilledButton>
-          <EmptyButton
-            class="my-2 md:ml-2"
-            buttonText="contact"
-            borderColor="border-master_mint"
-            textColor="text-master_mint"
-            backgroundColor="bg-master_bg"
-          ></EmptyButton>
+          <RouterLink to="/programari"
+            ><FilledButton
+              class="my-2 md:mr-2"
+              buttonText="programeaza-te"
+              buttonColor="bg-master_mint"
+            >
+              ></FilledButton
+            ></RouterLink
+          >
+
+          <RouterLink to="/despre_noi"
+            ><EmptyButton
+              class="my-2 md:ml-2"
+              buttonText="contact"
+              borderColor="border-master_mint"
+              textColor="text-master_mint"
+              backgroundColor="bg-master_bg"
+            ></EmptyButton
+          ></RouterLink>
         </div>
       </div>
     </div>
