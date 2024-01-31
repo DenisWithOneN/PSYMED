@@ -35,30 +35,27 @@ function Menu(e) {
             </li>
             <li class="mx-4 my-6 md:my-0">
               <RouterLink
-                to="/test"
+                to="/programari"
                 class="text-xl hover:text-master_mint duration-500"
                 >Programari</RouterLink>
             </li>
             <li class="mx-4 my-6 md:my-0">
-              <a
-                href="despre_noi.html"
+              <RouterLink
+                to="/despre_noi"
                 class="text-xl hover:text-master_mint duration-500"
-                >Despre noi</a
-              >
+                >Despre noi</RouterLink>
             </li>
             <li class="mx-4 my-6 md:my-0">
-              <a
-                href="servicii_si_tratamente.html"
+              <RouterLink
+                to="/servicii"
                 class="text-xl hover:text-master_mint duration-500"
-                >Servicii</a
-              >
+                >Servicii</RouterLink>
             </li>
             <li class="mx-4 my-6 md:my-0">
-              <a
-                href="galerie.html"
+              <RouterLink
+                to="/galerie"
                 class="text-xl hover:text-master_mint duration-500"
-                >Galerie</a
-              >
+                >Galerie</RouterLink>
             </li>
 
             <!-- navbar script -->

@@ -13,7 +13,7 @@ import FilledButton from "@components/homepage/FilledButton.vue";
         <MedicCard
         class="my-8 mx-8"
         numeMedic="Sorin Iova"
-        medicURL="images\soriniova.png"
+        medicURL="images/soriniova.png"
         spec1="Medic primar psihiatru"
         spec2="Doction in stiinte medicale"
         spec3="Sef de lucrari - Universitatea Oradea"
@@ -21,7 +21,7 @@ import FilledButton from "@components/homepage/FilledButton.vue";
       <MedicCard
         class="my-8 mx-8"
         numeMedic="Mihai Taut"
-        medicURL="images\mihaitaut.png"
+        medicURL="images/mihaitaut.png"
         spec1="Medic specialist psihiatru"
       ></MedicCard>
       <MedicCard
@@ -33,7 +33,7 @@ import FilledButton from "@components/homepage/FilledButton.vue";
       <MedicCard
         class="my-8 mx-8"
         numeMedic="Cristina Emilia Said"
-        medicURL="images\cristinaemilia.png"
+        medicURL="images/cristinaemilia.png"
         spec1="Medic specialist psihiatru"
       ></MedicCard>
       </div>
