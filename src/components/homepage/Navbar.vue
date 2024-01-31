@@ -1,4 +1,4 @@
-<script>
+<script setup>
 
 import { RouterLink } from "vue-router";
 
@@ -12,7 +12,17 @@ function Menu(e) {
                     list.classList.remove("top-[80px]"),
                     list.classList.remove("opacity-100"));
               }
-              </script>
+
+import { ref } from 'vue';
+
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+  
+  
+};
+</script>
 <template>
     <div class="container mx-auto">
         <nav
@@ -20,12 +30,12 @@ function Menu(e) {
         >
           <!-- navbar menu icon -->
           <div class="text-3xl cursor-pointer mx-2 md:hidden block lg:mx-0">
-            <i class=" text-master_shadow bi bi-list" onclick="Menu(this)"></i>
+            <i class=" text-master_shadow bi bi-list" @click="toggleMenu"></i>
           </div>
 
           <!-- navbar pages list -->
-          <ul
-            class="text-master_shadow md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+          <ul :class="{ 'top-[80px]': isMenuOpen, 'opacity-100': isMenuOpen, 'bg-master_bg': isMenuOpen}"
+            class="text-master_shadow text-center md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
           >
             <li class="mx-4 my-6 md:my-0">
               <RouterLink
@@ -63,12 +73,11 @@ function Menu(e) {
           </ul>
           <!-- navbar logo psymed -->
           <div class="text-master_shadow flex justify-between items-center">
-            <a href="index.html"
-              ><div class="flex text-2xl cursor-pointer">
-                <div>PSYMED</div>
-                <i class="bi bi-circle-fill text-2xl mx-2"></i>
-              </div></a
-            >
+            <RouterLink
+                to="/"
+                class="text-xl hover:text-master_mint duration-500"
+                ><div class="uppercase text-master_shadow font-bold">psymed</div></RouterLink>
+            
           </div>
 
           <!-- navbar social icons -->
@@ -76,7 +85,7 @@ function Menu(e) {
             <a href="https://www.facebook.com/"
               ><i class="bi bi-facebook text-2xl pr-2"></i
             ></a>
-            <a href="https://www.instagram.com/?hl=ro"
+            <a href="https://www.instagram.com/clinicadriova.psymed/?hl=ro"
               ><i class="bi bi-instagram text-2xl"></i
             ></a>
           </div>
